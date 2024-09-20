@@ -1,0 +1,28 @@
+.categories-ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    gap: 15px;
+
+}
+
+
+.categories-ul .li{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+
+}
+
+.dark .categories-ul .li{
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+}
+
+.imgs{
+    width: 350px;
+    height: 250px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}

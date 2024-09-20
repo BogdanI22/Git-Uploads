@@ -1,0 +1,26 @@
+.homePage{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.paragraph{
+    padding: 25px 100px;
+
+}
+
+.homePagePhoto{
+    width: 70%;
+    height: 400px;
+    padding: 30px;
+    border-radius: 50px;
+    
+}
+
+.dark .paragraph{
+    color: white;
+    transition: 0.7s;
+
+}
