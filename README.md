@@ -20,7 +20,7 @@ Backend (Java/Spring Boot/Hibernate):
 
 
 
-3.	EXERCISE_ADVISOR 
+2.	EXERCISE_ADVISOR 
 The website provides personalized exercise programs designed according to users' individual data, including height, weight, and age. Users can select specific fitness goals, such as muscle gain, weight loss, or muscle definition, to receive a customized workout plan that aligns with their objectives.
 At the code level:
 
@@ -43,7 +43,7 @@ Backend (Java/Spring Boot/Hibernate):
 •	Hibernate is utilized for Object-Relational Mapping (ORM), simplifying database operations. In this application, Hibernate translates complex data interactions, such as retrieving user and exercise information, into straightforward Java methods, minimizing the need for extensive SQL code and enhancing data access efficiency.
 •	JPA Repository functionalities, supported by Hibernate, are used to implement CRUD operations on the database, enabling the application to manage user data requests effectively, such as adding, updating, or retrieving user and program information, most of them used for administration porposes.
 
-1. CHESS
+3. CHESS
 Is a classic chess game for two players, developed in Java using Java Swing for the frontend interface. The primary objective is to capture the opponent's king. The game implements fundamental chess logic, including piece movement, capturing, and turn-based play.
 To ensure accurate positioning and spacing of the pieces, a custom measurement system resembling a chessboard tile layout is utilized, allowing precise control over all game processes. The game features a main game loop to manage the running time and flow of the game.
 Additionally, special moves such as "Castling" are included, allowing the simultaneous movement of the king and a rook. This implementation enhances gameplay dynamics, making the experience more engaging for players.
